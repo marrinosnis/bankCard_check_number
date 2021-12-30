@@ -198,7 +198,8 @@ void appendChkDigit(string cardNum_NoLastDigit)
 		}
 
 		cout << "\nThe final card number, with the last digit is: " << cardNum_NoLastDigit << " + " << arrayOfNumbers[sizeOfString] << endl;
-
+	
+		delete [] arrayOfNumbers;
 	}
 
 }
