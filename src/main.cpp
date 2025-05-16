@@ -37,7 +37,7 @@ bool isValidCrCardNum(string cardNum)
 	long long int numFromCard;   //use long long int, because the user will type 12-16 digits of number. So, it has fit all in one variable
 	char checkTheString; //use the char variable, to check if the given input from the user, contains anything else besides from digits
 
-	ssin.clear();         // clear the sream, just in any case
+	ssin.clear();         // clear the stream, just in any case
 	ssin.str(cardNum);   // give to the 'ssin' stream the input number from the string
 	ssin >> numFromCard;   // pass the number from the stream to the variable 'numFromCard'
 
